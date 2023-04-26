@@ -20,7 +20,7 @@ else
     mkdir -p $pictures
 fi
 
-# Скачиваем 10 чубриков, которая сгенерировала нейросеть
+# Скачиваем 10 фотографий, которая сгенерировала нейросеть
 for i in {0..9}; do
   # Получаем ответ от сервера Random User API
   response=$(curl -sS "https://randomuser.me/api/")
