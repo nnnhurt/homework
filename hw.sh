@@ -1,6 +1,6 @@
 #!/bin/bash
 pictures="non-existen_people"
-# Проверяем установлено ли утилита для обработки json из командной строки и устанавливаем если неь
+# Проверяем установлено ли утилита для обработки json из командной строки и устанавливаем если нет
 if ! command -v jq &> /dev/null; then
     echo "jq is not installed. Installing now..."
         sudo apt-get update && sudo apt-get install jq
